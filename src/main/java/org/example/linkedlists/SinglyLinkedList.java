@@ -132,7 +132,6 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
         builder.append("]");
         return builder.toString();
     }
-
     private class Node {
 
         Node next;
