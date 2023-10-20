@@ -1,6 +1,7 @@
 package org.example.linkedlists;
 
 public class SingleDriver {
+
     public static void main(String[] args) {
 
         LinkedList<String> linkedList = new SinglyLinkedList<>();
@@ -16,6 +17,8 @@ public class SingleDriver {
         linkedList.addLast("sixth");
         linkedList.addLast("seventh");
         linkedList.addLast("eighth");
+
+        System.out.println(linkedList.size());
 
         System.out.println(linkedList.contains("first"));
         System.out.println(linkedList.contains("eighth"));
