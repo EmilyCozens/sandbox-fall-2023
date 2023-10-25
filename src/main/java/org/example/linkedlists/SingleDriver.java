@@ -43,5 +43,6 @@ public class SingleDriver {
         linkedList.clear();
 
         System.out.println(linkedList.size());
+
     }
 }

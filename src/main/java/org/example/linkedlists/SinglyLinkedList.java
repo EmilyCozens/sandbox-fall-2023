@@ -2,6 +2,7 @@ package org.example.linkedlists;
 
 import java.util.StringJoiner;
 
+
 public class SinglyLinkedList<E> implements LinkedList<E> {
 
     private Node head;
@@ -103,7 +104,7 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
 
     @Override
     public void clear() {
-
+        // TODO document why this method is empty
     }
 
     @Override
