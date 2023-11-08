@@ -1,7 +1,6 @@
 package org.example.linkedlists;
 
 public class SingleDriver {
-
     public static void main(String[] args) {
 
         LinkedList<String> linkedList = new SinglyLinkedList<>();
