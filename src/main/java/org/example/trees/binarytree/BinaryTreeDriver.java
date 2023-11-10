@@ -58,7 +58,6 @@ public class BinaryTreeDriver {
         // System.out.println();
         // ((BinaryTree<Integer>) binaryTree).printTopDownTree();
     }
-
     private static void printTraversal(Iterator iterator) {
 
         while(iterator.hasNext()) {

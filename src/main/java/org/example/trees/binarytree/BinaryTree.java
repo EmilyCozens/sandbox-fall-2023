@@ -21,7 +21,6 @@ public class BinaryTree<T> implements Tree<T> {
         this.count = 0;
         return true;
     }
-
     @Override
     public T insert(T element) {
 

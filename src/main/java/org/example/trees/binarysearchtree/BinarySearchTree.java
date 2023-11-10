@@ -7,7 +7,6 @@ import org.example.trees.Tree;
 import org.example.trees.binarytree.BinaryTree;
 
 import java.util.*;
-
 public class BinarySearchTree<T extends Comparable> implements Tree<T> {
 
     private BinaryTreeNode<T> root;
