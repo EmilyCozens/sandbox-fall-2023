@@ -1,7 +1,6 @@
 package org.example.linkedlists;
 
 import java.util.StringJoiner;
-
 public class SinglyLinkedList<E> implements LinkedList<E> {
 
     private Node head;
